@@ -1,19 +1,8 @@
-# Streamlit for the web app
 streamlit==1.29.0
-
-# TensorFlow and Keras for ML
 tensorflow==2.20.0
 keras==2.12.0
-
-# Scientific computing
 numpy==1.23.5
-pandas==2.3.3
-scikit-learn==1.6.1
-
-# Image processing
-pillow==10.1.0
-opencv-python-headless==4.8.1.78
-h5py==3.8.0
-
-# Protobuf pinned for TF compatibility
-protobuf==3.20.3
+rich>=10.14.0
+markdown-it-py>=2.2.0
+pygments<3.0.0,>=2.13.0
+mdurl~=0.1
